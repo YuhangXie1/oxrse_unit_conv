@@ -30,3 +30,6 @@ lb = pound
 # mole
 
 # candela
+
+league = Unit(name = 'league', abbr='lg', si=kilometer, to_si_fun=lambda n: n * 4.828)
+lg = league
